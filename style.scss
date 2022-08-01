@@ -21,7 +21,7 @@ a:visited {
     text-decoration: none;
 }
 nav{
-    height: 10vh;
+    height: 50px;
     background-color: $color-white;
     padding: 0 40px;
     display: flex;
@@ -31,7 +31,7 @@ nav{
 
 .logo{
     font-family: $font-logo;
-    font-size: 20px;
+    font-size: 30px;
     color: $color-primary;
 
 }
@@ -45,6 +45,37 @@ nav{
     border-radius: 10px;
     color: $color-primary;
 }
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-
+    h1,h3{
+        margin: 20px 0;
+        color: $color-secondary;  
+    }
+    img, p, h2{
+        margin: 20px 0;
+    }
+    
+}
+footer{
+    background-color: $color-footer;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    display: block;
+    width: 150px;
+    margin: 20px 0;
+    background-color: $color-primary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+}
 

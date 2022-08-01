@@ -13,7 +13,7 @@ a:visited {
 }
 
 nav {
-  height: 10vh;
+  height: 50px;
   background-color: #fafafa;
   padding: 0 40px;
   display: flex;
@@ -23,7 +23,7 @@ nav {
 
 .logo {
   font-family: "Caveat", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #28527a;
 }
 
@@ -36,4 +36,38 @@ nav {
   padding: 10px 20px;
   border-radius: 10px;
   color: #28527a;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div h1, div h3 {
+  margin: 20px 0;
+  color: #00c9ff;
+}
+div img, div p, div h2 {
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #fffdd0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  display: block;
+  width: 150px;
+  margin: 20px 0;
+  background-color: #28527a;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fafafa;
 }
