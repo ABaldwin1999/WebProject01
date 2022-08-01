@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Itim", cursive;
   color: #28527a;
+  text-align: center;
 }
 
 a:link,
@@ -15,7 +16,7 @@ a:visited {
 nav {
   height: 50px;
   background-color: #fafafa;
-  padding: 0 40px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,10 +56,14 @@ div img, div p, div h2 {
 footer {
   background-color: #fffdd0;
   font-size: 20px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+footer a {
+  margin: 10px;
 }
 
 .button1 {
@@ -76,4 +81,5 @@ footer {
   display: grid;
   grid-template-columns: auto auto;
   text-align: center;
+  padding: 5px;
 }
