@@ -78,4 +78,10 @@ footer{
     border-radius: 10px;
     color: $color-white;
 }
+.Grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
 
