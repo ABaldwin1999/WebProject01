@@ -2,3 +2,17 @@
 
 $font-logo: "Caveat" , sans-serif;
 $font-body: "Itim", cursive;
+
+$color-primary: #28527a;
+$color-secondary: #00c9ff;
+$color-white: #fafafa;
+$color-footer: #fffdd0;
+
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+}
+
