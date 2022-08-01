@@ -20,6 +20,31 @@ a:link,
 a:visited {
     text-decoration: none;
 }
+nav{
+    height: 10vh;
+    background-color: $color-white;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: $font-logo;
+    font-size: 20px;
+    color: $color-primary;
+
+}
+.button0{
+    display: block;
+    width: 100px;
+    background-color: $color-white;
+    border: 2px solid $color-primary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-primary;
+}
 
 
 

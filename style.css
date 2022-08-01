@@ -11,3 +11,29 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+nav {
+  height: 10vh;
+  background-color: #fafafa;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Caveat", sans-serif;
+  font-size: 20px;
+  color: #28527a;
+}
+
+.button0 {
+  display: block;
+  width: 100px;
+  background-color: #fafafa;
+  border: 2px solid #28527a;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #28527a;
+}
